@@ -26,5 +26,5 @@ fout.close()
 
 os.system('sort -k1,1 -k2,2n '+infile+'.tmp'+' > '+infile+'.srt')
 os.system('mv '+infile+'.srt'+' '+infile)
-os.system('bgzip -f '+infile)
+os.system('bgzip -c '+infile+' > '+infile+'.gz')
 os.system('tabix -f -p bed '+infile+'.gz')
