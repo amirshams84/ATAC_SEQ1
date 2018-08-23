@@ -6,7 +6,7 @@ if len(sys.argv)!=2:
 	print '<narrowpeak file> <track name>'
 	sys.exit()
 
-infile=sys.argv[1:]
+infile=sys.argv[1]
 
 id=1
 fout=open(infile+'.tmp','w')
