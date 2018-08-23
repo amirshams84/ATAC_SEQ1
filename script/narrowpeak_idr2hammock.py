@@ -4,7 +4,7 @@
 
 import sys,os
 
-if len(sys.argv)!=3:
+if len(sys.argv)!=2:
 	print '<narrowpeak_idr file> <track name>'
 	sys.exit()
 
