@@ -2,7 +2,7 @@
 
 import sys,os
 
-if len(sys.argv)!=3:
+if len(sys.argv)!=2:
 	print '<broadpeak file> <track name>'
 	sys.exit()
 
