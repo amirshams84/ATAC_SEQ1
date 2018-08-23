@@ -6,7 +6,7 @@ if len(sys.argv)!=2:
 	print '<broadpeak file> <track name>'
 	sys.exit()
 
-infile=sys.argv[1:]
+infile=sys.argv[1]
 
 # all values on 9th field are -1, exclude them
 
